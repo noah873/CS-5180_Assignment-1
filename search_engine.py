@@ -8,7 +8,8 @@
 #-----------------------------------------------------------*/
 
 # ---------------------------------------------------------
-#Importing some Python libraries
+# Importing some Python libraries
+# pip install scikit-learn nltk
 # ---------------------------------------------------------
 import csv
 from sklearn.feature_extraction.text import CountVectorizer
@@ -107,3 +108,4 @@ for i in range(len(ranking)):
     print(str(i+1) + ". ", end='')
     print("Document", ranking[i][0], end='')
     print(", Score:", ranking[i][1])
+
